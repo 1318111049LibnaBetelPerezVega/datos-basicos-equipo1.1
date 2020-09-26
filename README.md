@@ -36,6 +36,12 @@ namespace ConsoleApp20
             Console.WriteLine("Ingresa Tu nombre");
             ocupacion = Console.ReadLine();
             Console.WriteLine();
+            
+            
+            
+            Console.WriteLine("Ingresa Tu nombre");
+            CorreoElectronico = Console.ReadLine();
+            Console.WriteLine();
 
 
             Console.WriteLine("Ingresa tu edad: ");
