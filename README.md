@@ -42,6 +42,11 @@ namespace ConsoleApp20
             Console.WriteLine("Ingresa Tu nombre");
             CorreoElectronico = Console.ReadLine();
             Console.WriteLine();
+            
+            
+            Console.WriteLine("Ingresa Tu nombre");
+            DiaMesYAñoDeNacimiento = Console.ReadLine();
+            Console.WriteLine();
 
 
             Console.WriteLine("Ingresa tu edad: ");
@@ -50,7 +55,10 @@ namespace ConsoleApp20
             {
                 Console.WriteLine("El usuario es menor de edad, Registro Fallido");
             }
-            
+            if (Edad >=18)
+            {
+            console.WriteLine("El usuario es mallor de edad, su registro se finalizara con exito");
+            }
         }
     }
 }
