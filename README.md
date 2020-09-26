@@ -19,7 +19,23 @@ namespace ConsoleApp20
             Console.WriteLine("Ingresa Tu nombre");
             Nombre = Console.ReadLine();
             Console.WriteLine();
-
+            
+            
+            Console.WriteLine("Ingresa Tu nombre");
+            ApellidoPaterno = Console.ReadLine();
+            Console.WriteLine();
+            
+            
+            
+            Console.WriteLine("Ingresa Tu nombre");
+            ApellidoMaterno = Console.ReadLine();
+            Console.WriteLine();
+            
+            
+            
+            Console.WriteLine("Ingresa Tu nombre");
+            ocupacion = Console.ReadLine();
+            Console.WriteLine();
 
 
             Console.WriteLine("Ingresa tu edad: ");
