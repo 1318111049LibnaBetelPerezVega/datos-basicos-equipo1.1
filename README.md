@@ -1,8 +1,5 @@
-# datos-basicos-equipo1.1
-programa que te pide tus datos basicos y si tu edad es menor a 18 marque un error 
 using System;
 
-nusing System;
 namespace ConsoleApp20
 {
     class Program
@@ -14,13 +11,27 @@ namespace ConsoleApp20
             String ApellidoMaterno;
             int Edad;
             String Ocupacion;
-            String CorreoElectronico;
-            String DiaMesYAñoDeNacimiento;
+            String Correo;
+String Mes;
+
             Console.WriteLine("Ingresa Tu nombre");
             Nombre = Console.ReadLine();
-            Console.WriteLine();
-            Console.WriteLine("ApellidoPaterno");
-            ApellidoPaterno = Console.ReadLine();
-            Console.WriteLine();
-            Console.WriteLine("ApellidoMaterno");
-            ApellidoMaterno = Console.ReadLine();
+            Console.WriteLine(Nombre);
+
+            Console.WriteLine("Ingresa Tu Apellido Paterno");
+            Apellido Paterno=Console.ReadLine();
+            Console.WriteLine(Apellido Paterno);
+            
+            Console.WriteLine("Ingresa Tu Apellido Materno");
+            Apellido Materno=Console.ReadLine();
+            Console.WriteLine(Apellido Materno);
+
+            Console.WriteLine("Ingresa tu edad: ");
+            Edad = Convert.ToInt32(Console.ReadLine());
+            if (Edad <= 18)
+            {
+                Console.WriteLine("El usuario es menor de edad, Registro Fallido");
+            }
+        }
+    }
+}
